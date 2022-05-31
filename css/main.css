@@ -1,0 +1,393 @@
+body{
+	color: white;
+	background: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeSpeed;
+    padding:0;
+    margin:0;
+}
+
+input[type=submit] {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fxcenter {
+    justify-content: center;
+}
+
+.a-center {
+    text-align: center;
+}
+
+.flex {    
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60vw;
+  float:left;
+
+}
+.flex-inner {
+  display: flex;
+  order: 0;
+  width: 10vw;
+  height: 10vw; 
+  background-size: cover;
+  background-color: orange;
+  position:relative;
+}
+
+.flex-inner:after {
+  position:absolute;
+  bottom:10px;
+  right: 10px;
+  content: attr(title);
+  font-size: 2em;
+  opacity: 0.4;
+  color: white;
+  z-index:2;
+}
+
+
+.main-title{
+	float:left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 39vw;
+	height: 100vh; 
+	align-self: center;
+}
+
+
+.main-title-inner{
+	align-self: center;
+	text-align: left;
+	padding: 40px;
+}
+
+
+.main-title-inner h1{
+	font-size: 5em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.main-title-inner h3{
+	font-size: 2em;
+	font-weight: 100;
+}
+
+
+.one-title{
+	float:left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 39vw;
+	height: 100vh; 
+	align-self: center;
+}
+
+.one-title-inner{
+	align-self: center;
+	text-align: left;
+	padding: 40px;
+}
+
+.minimap{
+	text-decoration:none;
+	width: 80px;
+	height:80px;
+	display:block;
+}
+
+.flex-inner-big {
+  display: flex;
+  order: 0;
+  width: 60vw;
+  height: 60vw; 
+  background-size: cover;
+  align-self: center;
+  background-color: orange;
+}
+
+.accounts{
+	display: flex-box;
+	flex-flow: row;
+	width: 95%;
+	height: 40vh;
+	padding-top: 20px;
+	padding-bottom:20px;
+
+}
+
+.account{
+	display: flex;
+	width:30%;
+	padding: 10px;
+	background: white;
+	border-radius: 2px;
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.account:hover{
+	background: #fc9115;
+	color: #fff;
+}
+
+.backto{
+	display:block;
+	position:relative;
+	top:40px;
+	width:30%;
+	border: solid 2px  white;
+	color: white;
+	background-color: black;
+	border-radius: 2px;
+	text-align: left;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.backto:hover{
+	color: black;
+	background-color: white;
+}
+
+.scale {
+  transition: 0.5s; 
+}
+
+.scale:hover {
+     transform: scale(1.1);
+}
+
+
+
+.w01{background-image:url('https://42nft.cf/img/preview01.jpg')}
+.w02{background-image:url('https://42nft.cf/img/preview02.jpg')}
+.w03{background-image:url('https://42nft.cf/img/preview03.jpg')}
+.w04{background-image:url('https://42nft.cf/img/preview04.jpg')}
+.w05{background-image:url('https://42nft.cf/img/preview05.jpg')}
+.w06{background-image:url('https://42nft.cf/img/preview06.jpg')}
+.w07{background-image:url('https://42nft.cf/img/preview07.jpg')}
+.w08{background-image:url('https://42nft.cf/img/preview08.jpg')}
+.w09{background-image:url('https://42nft.cf/img/preview09.jpg')}
+.w10{background-image:url('https://42nft.cf/img/preview10.jpg')}
+.w11{background-image:url('https://42nft.cf/img/preview11.jpg')}
+.w12{background-image:url('https://42nft.cf/img/preview12.jpg')}
+.w13{background-image:url('https://42nft.cf/img/preview13.jpg')}
+.w14{background-image:url('https://42nft.cf/img/preview14.jpg')}
+.w15{background-image:url('https://42nft.cf/img/preview15.jpg')}
+.w16{background-image:url('https://42nft.cf/img/preview16.jpg')}
+.w17{background-image:url('https://42nft.cf/img/preview17.jpg')}
+.w18{background-image:url('https://42nft.cf/img/preview18.jpg')}
+.w19{background-image:url('https://42nft.cf/img/preview19.jpg')}
+.w20{background-image:url('https://42nft.cf/img/preview20.jpg')}
+.w21{background-image:url('https://42nft.cf/img/preview21.jpg')}
+.w22{background-image:url('https://42nft.cf/img/preview22.jpg')}
+.w23{background-image:url('https://42nft.cf/img/preview23.jpg')}
+.w24{background-image:url('https://42nft.cf/img/preview24.jpg')}
+.w25{background-image:url('https://42nft.cf/img/preview25.jpg')}
+.w26{background-image:url('https://42nft.cf/img/preview26.jpg')}
+.w27{background-image:url('https://42nft.cf/img/preview27.jpg')}
+.w28{background-image:url('https://42nft.cf/img/preview28.jpg')}
+.w29{background-image:url('https://42nft.cf/img/preview29.jpg')}
+.w30{background-image:url('https://42nft.cf/img/preview30.jpg')}
+.w31{background-image:url('https://42nft.cf/img/preview31.jpg')}
+.w32{background-image:url('https://42nft.cf/img/preview32.jpg')}
+.w33{background-image:url('https://42nft.cf/img/preview33.jpg')}
+.w34{background-image:url('https://42nft.cf/img/preview34.jpg')}
+.w35{background-image:url('https://42nft.cf/img/preview35.jpg')}
+.w36{background-image:url('https://42nft.cf/img/preview36.jpg')}
+.w37{background-image:url('https://42nft.cf/img/preview37.jpg')}
+.w38{background-image:url('https://42nft.cf/img/preview38.jpg')}
+.w39{background-image:url('https://42nft.cf/img/preview39.jpg')}
+.w40{background-image:url('https://42nft.cf/img/preview40.jpg')}
+.w41{background-image:url('https://42nft.cf/img/preview41.jpg')}
+.w42{background-image:url('https://42nft.cf/img/preview42.jpg')}
+
+.wl01{background-image:url('https://42nft.cf/img1000/01.jpg')}
+.wl02{background-image:url('https://42nft.cf/img1000/02.jpg')}
+.wl03{background-image:url('https://42nft.cf/img1000/03.jpg')}
+.wl04{background-image:url('https://42nft.cf/img1000/04.jpg')}
+.wl05{background-image:url('https://42nft.cf/img1000/05.jpg')}
+.wl06{background-image:url('https://42nft.cf/img1000/06.jpg')}
+.wl07{background-image:url('https://42nft.cf/img1000/07.jpg')}
+.wl08{background-image:url('https://42nft.cf/img1000/08.jpg')}
+.wl09{background-image:url('https://42nft.cf/img1000/09.jpg')}
+.wl10{background-image:url('https://42nft.cf/img1000/10.jpg')}
+.wl11{background-image:url('https://42nft.cf/img1000/11.jpg')}
+.wl12{background-image:url('https://42nft.cf/img1000/12.jpg')}
+.wl13{background-image:url('https://42nft.cf/img1000/13.jpg')}
+.wl14{background-image:url('https://42nft.cf/img1000/14.jpg')}
+.wl15{background-image:url('https://42nft.cf/img1000/15.jpg')}
+.wl16{background-image:url('https://42nft.cf/img1000/16.jpg')}
+.wl17{background-image:url('https://42nft.cf/img1000/17.jpg')}
+.wl18{background-image:url('https://42nft.cf/img1000/18.jpg')}
+.wl19{background-image:url('https://42nft.cf/img1000/19.jpg')}
+.wl20{background-image:url('https://42nft.cf/img1000/20.jpg')}
+.wl21{background-image:url('https://42nft.cf/img1000/21.jpg')}
+.wl22{background-image:url('https://42nft.cf/img1000/22.jpg')}
+.wl23{background-image:url('https://42nft.cf/img1000/23.jpg')}
+.wl24{background-image:url('https://42nft.cf/img1000/24.jpg')}
+.wl25{background-image:url('https://42nft.cf/img1000/25.jpg')}
+.wl26{background-image:url('https://42nft.cf/img1000/26.jpg')}
+.wl27{background-image:url('https://42nft.cf/img1000/27.jpg')}
+.wl28{background-image:url('https://42nft.cf/img1000/28.jpg')}
+.wl29{background-image:url('https://42nft.cf/img1000/29.jpg')}
+.wl30{background-image:url('https://42nft.cf/img1000/30.jpg')}
+.wl31{background-image:url('https://42nft.cf/img1000/31.jpg')}
+.wl32{background-image:url('https://42nft.cf/img1000/32.jpg')}
+.wl33{background-image:url('https://42nft.cf/img1000/33.jpg')}
+.wl34{background-image:url('https://42nft.cf/img1000/34.jpg')}
+.wl35{background-image:url('https://42nft.cf/img1000/35.jpg')}
+.wl36{background-image:url('https://42nft.cf/img1000/36.jpg')}
+.wl37{background-image:url('https://42nft.cf/img1000/37.jpg')}
+.wl38{background-image:url('https://42nft.cf/img1000/38.jpg')}
+.wl39{background-image:url('https://42nft.cf/img1000/39.jpg')}
+.wl40{background-image:url('https://42nft.cf/img1000/40.jpg')}
+.wl41{background-image:url('https://42nft.cf/img1000/41.jpg')}
+.wl42{background-image:url('https://42nft.cf/img1000/42.jpg')}
+
+
+
+@media (max-width: 860px) {
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  float:left;
+
+}
+.flex-inner {
+  display: flex;
+  order: 0;
+  width: 15vw;
+  height: 15vw; 
+  background-size: cover;
+  background-color: orange;
+}
+	
+	.main-title-inner h1{
+	font-size: 3em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.main-title-inner h3{
+	font-size: 1.4em;
+	font-weight: 100;
+}	
+.main-title{
+	float:left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	align-self: center;
+	height: auto; 
+	align-content: flex-start;
+}
+
+.main-title-inner{
+	align-self: center;
+	text-align: left;
+	padding: 12px;
+}
+
+.inside .flex-inner-big{
+	width: 100vw;
+	height: 100vw;
+}
+.inside .one-title{
+	width: 100vw;
+}
+.one-title-inner{
+	align-self: left;
+	text-align: left;
+	padding: 16px;
+}
+
+}
+
+@media (max-width: 600px) {
+	.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  float:left;
+
+}
+.flex-inner {
+  display: flex;
+  order: 0;
+  width: 15vw;
+  height: 15vw; 
+  background-size: cover;
+  background-color: orange;
+}
+	
+	.main-title-inner h1{
+	font-size: 3em;
+	font-weight: 100;
+	text-transform: uppercase;
+	align-content: flex-start;
+}
+
+.main-title-inner h3{
+	font-size: 1.4em;
+	font-weight: 100;
+}
+.main-title{
+	float:left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	align-self: center;
+	height: auto;
+	align-content: flex-start; 
+}
+
+.main-title-inner{
+	align-self: center;
+	text-align: left;
+	padding: 8px;
+}
+.inside .flex-inner-big{
+	width: 100vw;
+	height: 100vw;
+}
+.inside .one-title{
+	width: 100vw;
+}
+.one-title-inner{
+	align-self: left;
+	text-align: left;
+	padding: 16px;
+}
+}
